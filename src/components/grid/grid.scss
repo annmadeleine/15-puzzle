@@ -1,0 +1,9 @@
+@import '../../styles/variables';
+
+.grid {
+  margin: 20px;
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(4, 80px);
+}

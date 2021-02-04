@@ -1,0 +1,26 @@
+@import '../../styles/variables';
+
+.brick {
+  background-color: $darkPink;
+  color: $pink;
+  font-size: $font-size-xl;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: $pink;
+    color: $darkPink;
+  }
+
+  &-hidden {
+    visibility: hidden;
+  }
+
+  &-correct {
+    background-color: $green;
+    color: $darkGreen;
+  }
+}

@@ -1,0 +1,23 @@
+// Variables
+
+// Colors
+$darkPink: #df9cac;
+$pink: #f0d5d3;
+$blue: #8d9896;
+$green: #9da89b;
+$darkGreen: #626e60;
+$white: #fff;
+$black: #000;
+
+// Sizes
+$font-size-md: 1em;
+$font-size-xl: 2em;
+
+// Font
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+$font-sans-serif: 'Open Sans', sans-serif;

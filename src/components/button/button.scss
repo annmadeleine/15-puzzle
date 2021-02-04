@@ -1,0 +1,18 @@
+@import '../../styles/variables';
+
+.button {
+  background-color: $green;
+  color: $darkGreen;
+  width: 100px;
+  height: 40px;
+  font-size: $font-size-md;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: $white;
+  }
+}
